@@ -13,8 +13,6 @@ struct read_format {
 static struct perf_event_attr pea_llc_miss;
 static struct read_format rf_cqm;
 static int fd_lm;
-char cbm_mask[256];
-unsigned long long_mask;
 char llc_occup_path[1024];
 
 static void initialize_perf_event_attr(void)

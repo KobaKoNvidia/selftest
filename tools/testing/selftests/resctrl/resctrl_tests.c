@@ -14,6 +14,7 @@
 #define BENCHMARK_ARG_SIZE	64
 
 bool is_amd;
+int tests_run;
 
 void detect_amd(void)
 {

@@ -10,8 +10,6 @@
  */
 #include "resctrl.h"
 
-int tests_run;
-
 static int find_resctrl_mount(char *buffer)
 {
 	FILE *mounts;

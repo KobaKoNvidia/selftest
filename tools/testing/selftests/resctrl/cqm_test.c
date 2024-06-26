@@ -16,10 +16,9 @@
 #define MAX_DIFF		2000000
 #define MAX_DIFF_PERCENT	15
 
-int count_of_bits;
-char cbm_mask[256];
-unsigned long long_mask;
-unsigned long cache_size;
+static int count_of_bits;
+static unsigned long long_mask;
+static unsigned long cache_size;
 
 static int cqm_setup(int num, ...)
 {
